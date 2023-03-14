@@ -3,7 +3,7 @@ const app = require('./app');
 const mongoose = require('mongoose');
 const imageSchema = require('./models/imagepost');
 const postSchema = require('./models/instapost');
-const uri = "mongodb://localhost:27017/myproject";
+const uri = "mongodb+srv://fast:Kartik123@cluster0.uziijdc.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 

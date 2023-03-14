@@ -10,7 +10,7 @@ const bodyParser = require("body-parser");
 const multer = require("multer");
 // Middlewares
 app.use(express.urlencoded());
-app.set("view engine","ejs");
+// app.set("view engine","ejs");
 app.use(express.static(path.join(__dirname + "/public")))
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json());
